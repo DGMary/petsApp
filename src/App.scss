@@ -1,0 +1,15 @@
+@import '../src/styles/variables.scss';
+
+html,
+body, 
+#root,
+.App {
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto; 
+}
