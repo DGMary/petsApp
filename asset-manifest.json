@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sniffApp/static/css/main.cb3ebba0.css",
+    "main.js": "/sniffApp/static/js/main.6e7aaf0e.js",
+    "static/js/787.1b78ea71.chunk.js": "/sniffApp/static/js/787.1b78ea71.chunk.js",
+    "index.html": "/sniffApp/index.html",
+    "main.cb3ebba0.css.map": "/sniffApp/static/css/main.cb3ebba0.css.map",
+    "main.6e7aaf0e.js.map": "/sniffApp/static/js/main.6e7aaf0e.js.map",
+    "787.1b78ea71.chunk.js.map": "/sniffApp/static/js/787.1b78ea71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb3ebba0.css",
+    "static/js/main.6e7aaf0e.js"
+  ]
+}
