@@ -1,24 +1,30 @@
 /* variables */
-$--color-black: #000000;
-$--color-black-06: rgba(0, 0, 0, 0.6);
-$--color-black-04: rgba(0, 0, 0, 0.4);
-$--color-black-01: rgba(0, 0, 0, 0.1);
+:root {
+  --color-black: #000000;
+  --color-black-06: rgba(0, 0, 0, 0.6);
+  --color-black-04: rgba(0, 0, 0, 0.4);
+  --color-black-01: rgba(0, 0, 0, 0.1);
 
-$--color-white: rgba(255, 255, 255, 1);
-$--color-white-06: rgba(255, 255, 255, 0.6);
-$--color-white-04: rgba(255, 255, 255, 0.4);
-$--color-white-04: rgba(255, 255, 255, 0.05);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-06: rgba(255, 255, 255, 0.6);
+  --color-white-04: rgba(255, 255, 255, 0.4);
+  --color-white-04: rgba(255, 255, 255, 0.05);
 
-$--color-primary: #FEEA00;
-$--color-primary-01: #FEEA00;
-$--color-primary-06: rgba(254, 234, 0, 0.6);
-$--color-primary-04: rgba(254, 234, 0, 0.4);
+  --color-primary: #FEEA00;
+  --color-primary-01: #FEEA00;
+  --color-primary-06: rgba(254, 234, 0, 0.6);
+  --color-primary-04: rgba(254, 234, 0, 0.4);
 
-$--color-secondary:  linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #EF97E3;;
-$--color-secondary-01: #EF97E3;
-$--color-secondary-06: rgba(239, 151, 227, 0.6);
-$--color-secondary-04: rgba(239, 151, 227, 0.4);
+  --color-secondary:  linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #EF97E3;;
+  --color-secondary-01: #EF97E3;
+  --color-secondary-06: rgba(239, 151, 227, 0.6);
+  --color-secondary-04: rgba(239, 151, 227, 0.4);
 
-$--green: #63C7B2;
-$--red:  #ED6767;
-$--purple: #94A9E8;
+  --green: #63C7B2;
+  --red:  #ED6767;
+  --purple: #94A9E8;
+
+  // elements 
+  --footer-bg: var(--color-black);
+  --footer-color: var(--color-white);
+}

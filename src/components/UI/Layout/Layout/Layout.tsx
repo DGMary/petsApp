@@ -3,12 +3,13 @@ import './Layout.css';
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 
-function Layout() {
+function Layout({children}:any) {
   return (
     <>
       <Header />
       <main className="main">
         Main
+        {children}
       </main>
       <Footer />
     </>
